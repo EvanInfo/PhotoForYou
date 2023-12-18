@@ -1,0 +1,71 @@
+.custom-margin-top-6 {
+    margin-top: 6rem; /* Ajustez la valeur selon vos besoins */
+}
+
+
+.success-message {
+    background-color: #dff0d8; /* Couleur de fond verte */
+    color: #3c763d; /* Couleur du texte verte foncée */
+    border: 1px solid #d6e9c6; /* Bordure verte claire */
+    padding: 15px; /* Espace intérieur */
+    margin-bottom: 20px; /* Marge en bas pour l'espace */
+    border-radius: 4px; /* Coins arrondis */
+}
+.selectedCategory {
+    margin-right: 5px;
+    padding: 5px;
+    background-color: #ddd;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.photo {
+    margin-right: 5px;
+    padding: 5px;
+    background-color: #ddd;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.custom-img-size {
+    width: 20%; /* 100% de la largeur du conteneur parent */
+    height: 25vh; 
+    object-fit: cover; /* ou object-fit: contain; selon vos besoins */
+    cursor: pointer;
+}
+
+#upload-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#upload-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+#upload-form input[type="file"],
+#upload-form textarea,
+#upload-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#upload-form input[type="submit"] {
+    background-color: #1b0ba7;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
